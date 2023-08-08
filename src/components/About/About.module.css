@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    background: var(--second-bg-color);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-image img{
+    width: 30vw;
+    border-radius: 0 25% 0 25%;
+    box-shadow: 0.01rem 0.01rem .4rem .2rem var(--main-color);
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 4rem;
+}   
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+    font-size: 4.5rem;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem 0;
+}
+.more {
+    display:inline;
+}
+
+.about-content button {
+    width: 30%;
+}
