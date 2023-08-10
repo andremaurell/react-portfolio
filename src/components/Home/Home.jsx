@@ -6,7 +6,7 @@ export default function Home({}) {
     return (
         <div>
         
-            <section className={style['home']}>
+            <section className={style['home']} id='home'>
                 <div className={style['home-content']}>
                     <h2>Hello World!</h2>
                     <h1>I'm André Maurell</h1>

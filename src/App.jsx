@@ -19,6 +19,7 @@ function App() {
       <About  />
       <Services />
       <Portfolio />
+      <Footer />
     </>
   )
 }

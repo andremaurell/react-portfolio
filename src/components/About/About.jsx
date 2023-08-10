@@ -1,17 +1,17 @@
 import React, {useRef, useState, useEffect} from 'react'
 import style from './About.module.css'
-
+import { toggleExpansion } from '../../utils/utils';   
 
 export default function About({}) {
     const [readMore, setReadMore] = useState(false);
 
-    const toggleExpansion = () => {
-        setReadMore(!readMore);
+    const handToggle = () => {
+        toggleExpansion(readMore, setReadMore);
 
     }
     return (
         <div>
-            <section className={style['about']}>
+            <section className={style['about']}id='about'>
                     <div className={style["about-image"]}>
                         <img src='../../../src/assets/fotocurriculocanva.jpeg'  alt="" />
                     </div>
@@ -33,7 +33,7 @@ export default function About({}) {
                             I am always willing to learn new things.</span>
                         )}
                     </p>
-                    <button onClick={toggleExpansion} className='btn'>
+                    <button onClick={handToggle} className='btn'>
                         {readMore ? 'Read Less' : 'Read More'}
                     </button>
                 </div>

@@ -48,3 +48,7 @@ section {
   box-shadow: none;
   transform: matrix3d(1.05, 0, 0, 0, 0, 1.05, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);   
 }
+
+.more {
+  display:inline;
+}

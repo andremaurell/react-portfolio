@@ -1,3 +1,79 @@
 .portfolio {
     background: var(--second-bg-color);
 }
+
+.portfolio h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.portfolio-content .projects-box {
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease-in-out;
+}
+
+.portfolio-content .projects-box img {
+    width: 100%;
+    max-width: 30vw;
+    transition: .5s ease-in-out;
+}
+
+.portfolio-content .projects-box:hover {
+    transform: scale(1.05)
+}
+
+.projects-box .portfolio-layer {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    background: linear-gradient(rgba(0,0,0,.1), var(--main-color));
+}
+.projects-box:hover .portfolio-layer {
+    transform: translateY(0);
+}
+
+.projects-box .portfolio-layer h3 {
+    font-size: 2.5rem;
+}
+.projects-box .portfolio-layer p {
+    font-size: 1.6rem;
+    padding: 3rem;
+}
+.projects-box .portfolio-layer i {
+    font-size: 3rem;
+    background: white;
+    color: var(--second-bg-color);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    
+}
+.projects-box .portfolio-layer i:hover {
+    transform: scale(1.05);
+}
