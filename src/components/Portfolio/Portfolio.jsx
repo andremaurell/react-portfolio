@@ -9,7 +9,7 @@ export default function Portfolio({}) {
                 <h2>Latest <span className='blue'> Projects</span></h2>
                 <div className={style["portfolio-content"]}> 
                     <div className={style["projects-box"]} id = "firstSon">
-                        <img src='../../src/assets/Pokedex.jpg' alt="" />
+                        <img src='../.././assets/Pokedex.jpg' alt="" />
                         <div className={style["portfolio-layer"]}>
                             <h3>Pokedex - JS</h3>
                             <p>Pokedex of anime Pokemon in JS/HTML/CSS.</p>
@@ -17,7 +17,7 @@ export default function Portfolio({}) {
                         </div>
                     </div>
                     <div className={style["projects-box"]} id = "firstSon">
-                        <img src='../../src/assets/Monopoly.jpg' alt="" />
+                        <img src='../assets/Monopoly.jpg' alt="" />
                         <div className={style["portfolio-layer"]}>
                             <h3>Monopoly</h3>
                             <p>Monopoly board game in JS/HTML/CSS.</p>

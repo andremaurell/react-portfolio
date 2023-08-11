@@ -13,7 +13,7 @@ export default function About({}) {
         <div>
             <section className={style['about']}id='about'>
                     <div className={style["about-image"]}>
-                        <img src='../../../src/assets/fotocurriculocanva.jpeg'  alt="" />
+                        <img src='../../src/assets/fotocurriculocanva.jpeg'  alt="" />
                     </div>
                 <div className={style['about-content']}>
                     <h2>About  <span className = "blue">Me</span></h2>
