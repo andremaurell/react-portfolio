@@ -32,7 +32,7 @@ export default function Services({}) {
                 <div className={style["services-content"]}> 
                     <div className={style["services-box"]} id = "firstSon">
                         <i class='bx bx-code-alt' ></i>
-                        <h3>Web Development</h3>
+                        <h3>FrontEnd Development</h3>
                         <p>I work with Web Development since 2022, 
                             but, in 2023 wich I really started to 
                             study and work with this.
@@ -67,7 +67,7 @@ export default function Services({}) {
                     </div>
                     <div className={style["services-box"]} id = "thirdSon">
                         <i class='bx bxl-android' ></i>
-                        <h3>Robotic</h3>
+                        <h3>Development of Robots</h3>
                         <p>I meeted the robotic in University,
                              since my first year of graduation
                               I participate of projects like the 
@@ -86,6 +86,7 @@ export default function Services({}) {
                             {readMore3 ? 'Read Less' : 'Read More'}
                         </button>
                     </div>
+                    
                     
 
                 </div>
