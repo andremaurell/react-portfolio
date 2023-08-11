@@ -1,6 +1,6 @@
 import React, {useRef, useState, useEffect} from 'react'
 import style from './Home.module.css'
-import foto_home from '../../assets/images/fotocurriculocanva.jpeg'
+import foto_home from '../../../src/assets/images/fotocurriculocanva.jpeg'
 
 export default function Home({}) {
 
