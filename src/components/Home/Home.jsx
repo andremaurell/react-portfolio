@@ -1,6 +1,5 @@
 import React, {useRef, useState, useEffect} from 'react'
 import style from './Home.module.css'
-import foto_home from '../../../src/assets/images/fotocurriculocanva.jpeg'
 
 export default function Home({}) {
 
@@ -23,7 +22,7 @@ export default function Home({}) {
 
                 </div>
                 <div className={style['home-image']}>
-                    <img src={foto_home}  alt="" />
+                    <img src="/src/assets/fotocurriculocanva.jpeg"  alt="" />
                 </div>
             </section>
         </div>
