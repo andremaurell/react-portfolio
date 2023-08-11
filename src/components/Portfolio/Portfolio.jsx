@@ -17,7 +17,7 @@ export default function Portfolio({}) {
                         </div>
                     </div>
                     <div className={style["projects-box"]} id = "firstSon">
-                        <img src='../assets/Monopoly.jpg' alt="" />
+                        <img src='/src/assets/Monopoly.jpg' alt="" />
                         <div className={style["portfolio-layer"]}>
                             <h3>Monopoly</h3>
                             <p>Monopoly board game in JS/HTML/CSS.</p>
