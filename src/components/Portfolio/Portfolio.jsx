@@ -9,7 +9,7 @@ export default function Portfolio({}) {
                 <h2>Latest <span className='blue'> Projects</span></h2>
                 <div className={style["portfolio-content"]}> 
                     <div className={style["projects-box"]} id = "firstSon">
-                        <img src='../.././assets/Pokedex.jpg' alt="" />
+                        <img src='/src/assets/Pokedex.jpg' alt="" />
                         <div className={style["portfolio-layer"]}>
                             <h3>Pokedex - JS</h3>
                             <p>Pokedex of anime Pokemon in JS/HTML/CSS.</p>
