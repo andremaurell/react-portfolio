@@ -8,7 +8,7 @@ export default function Portfolio({}) {
     return (
         <div>
             <section className={style['portfolio']}id='portfolio'>
-                <h2>Latest <span className='blue'> Projects</span></h2>
+                <h2>Latest <span className='yellow'> Projects</span></h2>
                 <div className={style["portfolio-content"]}> 
                     <div className={style["projects-box"]} id = "firstSon">
                         <img src={pokedex} alt="" />

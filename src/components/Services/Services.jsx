@@ -28,19 +28,19 @@ export default function Services({}) {
     return (
         <div>
             <section className={style['services']}id='services'>
-            <h2>My <span className = "blue">Services</span></h2>
+            <h2>My <span className = "yellow">Services</span></h2>
                 <div className={style["services-content"]}> 
                     <div className={style["services-box"]} id = "firstSon">
                         <i class='bx bx-code-alt' ></i>
                         <h3>FrontEnd Development</h3>
-                        <p>I work with Web Development since 2022, 
-                            but, in 2023 wich I really started to 
+                        <p>I work with Front end Development since 2021, 
+                            but, in 2022 I really started to 
                             study and work with this.
                             { readMore && (
                             <span className="more">
-                            I have some projects with HTML, CSS and JS, 
-                            but, i still don't work with frameworks, 
-                            but I'm studying React. </span>
+                            I have some projects with HTML5, CSS3, JS and React, 
+                            and now, I intend to put my focus in study
+                            more next.js. </span>
                     )}  
                         </p>
                         <button onClick={handToggle} className='btn'>
@@ -50,10 +50,10 @@ export default function Services({}) {
                     <div className={style["services-box"]} id = "secondSon">
                         <i class='bx bx-code-alt' ></i>
                         <h3>FullStack Development</h3>
-                        <p>I have a little experience with React, 
+                        <p>I have a little experience with, 
                             Node.js, Next.js, Flask, MySQL and 
-                            MongoDB, besides I am experient with 
-                            Html, Css and JS vanilla.
+                            MongoDB, besides I am fluent with 
+                            Html, Css, JS vanilla and React.
                             { readMore2 && (
                             <span className="more">
                             I never work in a project like FullStack developer,

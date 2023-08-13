@@ -17,7 +17,7 @@ export default function About({}) {
                         <img src={foto_about}  alt="" />
                     </div>
                 <div className={style['about-content']}>
-                    <h2>About  <span className = "blue">Me</span></h2>
+                    <h2>About  <span className = "yellow">Me</span></h2>
                     <h3>Frontend Developer!</h3>
                     <p>My name is André Maurell, I am 20 years and I am a Computer
                         Engineering student at the Federal University of Rio Grande 

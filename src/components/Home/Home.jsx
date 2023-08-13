@@ -11,7 +11,7 @@ export default function Home({}) {
                 <div className={style['home-content']}>
                     <h2>Hello World!</h2>
                     <h1>I'm André Maurell</h1>
-                    <h2>And i'm a <span className='blue'>Frontend Developer</span></h2>
+                    <h2>And i'm a <span className='yellow'>Frontend Developer</span></h2>
                     <p>Computer Engineering student, currently in the 4rd year and specializing in Front-end Development</p>
                     <div className={style['social-media']}>
                         <a href="https://www.instagram.com/andremaurell/" target="_blank" rel="noopener noreferrer"><i className='bx bxl-instagram-alt' ></i></a>

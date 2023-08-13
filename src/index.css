@@ -10,6 +10,13 @@
 }
 
 :root {
+  --bg-color: #F5F5DC;
+  --second-bg-color: #fff;
+  --text-color: #964B00;
+  --main-color: #F0BE00;
+}
+
+[data-theme="dark"] {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
   --text-color: #fff;
@@ -24,7 +31,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
-.blue {
+.yellow {
   color: var(--main-color);
 }
 section {
