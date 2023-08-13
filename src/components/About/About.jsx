@@ -1,6 +1,7 @@
 import React, {useRef, useState, useEffect} from 'react'
 import style from './About.module.css'
 import { toggleExpansion } from '../../utils/utils';   
+import foto_about from '/src/assets/fotocurriculocanva.jpeg'
 
 export default function About({}) {
     const [readMore, setReadMore] = useState(false);
@@ -13,7 +14,7 @@ export default function About({}) {
         <div>
             <section className={style['about']}id='about'>
                     <div className={style["about-image"]}>
-                        <img src='../../src/assets/fotocurriculocanva.jpeg'  alt="" />
+                        <img src={foto_about}  alt="" />
                     </div>
                 <div className={style['about-content']}>
                     <h2>About  <span className = "blue">Me</span></h2>
