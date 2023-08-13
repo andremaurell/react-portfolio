@@ -58,3 +58,21 @@ section {
     width: 100%;
 }
 }
+
+@media (max-width:820px){
+  html{
+    font-size: 75%;
+    overflow-x:hidden;
+    zoom: 0%;
+    width: 100%;
+}
+}
+
+@media (max-width:550px){
+  html{
+    font-size: 50%;
+    overflow-x:hidden;
+    zoom: 0%;
+    width: 100%;
+}
+}
