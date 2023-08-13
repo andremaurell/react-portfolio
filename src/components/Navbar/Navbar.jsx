@@ -3,7 +3,7 @@ import style from './Navbar.module.css'
 
 export default function Navbar({}) {
     
-    const [active, setActive] = useState('home')
+    const [active, setActive] = useState(false)
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     const sections = document.querySelectorAll('section');
