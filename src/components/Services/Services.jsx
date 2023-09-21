@@ -35,7 +35,7 @@ export default function Services({}) {
                         <h3>FrontEnd Development</h3>
                         <p>I work with Front end Development since 2021, 
                             but, in 2022 I really started to 
-                            study and work with this.
+                            study and work more with this.
                             { readMore && (
                             <span className="more">
                             I have some projects with HTML5, CSS3, JS and React, 
@@ -57,7 +57,7 @@ export default function Services({}) {
                             { readMore2 && (
                             <span className="more">
                             I never work in a project like FullStack developer,
-                            just in a Personal project,'Realtime Chat', in my
+                            just in a Personal project, 'Realtime Chat', in my
                             Portfolio below. </span>
                     )}  
                         </p>
@@ -67,8 +67,8 @@ export default function Services({}) {
                     </div>
                     <div className={style["services-box"]} id = "thirdSon">
                         <i class='bx bxl-android' ></i>
-                        <h3>Development of Robots</h3>
-                        <p>I meeted the robotic in University,
+                        <h3>Robot Development</h3>
+                        <p>I met the robotic in University,
                              since my first year of graduation
                               I participate of projects like the 
                               FBOT team.

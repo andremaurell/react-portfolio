@@ -8,7 +8,6 @@ export default function About({}) {
 
     const handToggle = () => {
         toggleExpansion(readMore, setReadMore);
-
     }
     return (
         <div>
