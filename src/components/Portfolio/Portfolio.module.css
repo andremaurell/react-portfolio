@@ -52,6 +52,11 @@
 }
 .projects-box:hover .portfolio-layer {
     transform: translateY(0);
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
 }
 
 .projects-box .portfolio-layer h3 {
@@ -62,12 +67,12 @@
     padding: 3rem;
 }
 .projects-box .portfolio-layer i {
-    font-size: 3rem;
+    font-size: 1.5rem;
     background: white;
     color: var(--main-color);
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;

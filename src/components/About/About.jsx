@@ -25,9 +25,7 @@ export default function About({}) {
                         developer in the future.
 
                         {readMore && (
-                            <span className={style['more']}> I have experience in HTML, CSS, 
-                            JavaScript, MySQL, ROS, Git, GitHub, and I am currently 
-                            studying React. I am passionate about technology and 
+                            <span className={style['more']}> I'm currently a React/Typescript developer with very experience at git/github, but you can get my technical skills on "services" section. I am passionate about technology and 
                             I am always looking for new knowledge. 
                             I am a very organized person, I like to work in a team and 
                             I am always willing to learn new things.</span>

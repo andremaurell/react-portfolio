@@ -38,9 +38,8 @@ export default function Services({}) {
                             study and work more with this.
                             { readMore && (
                             <span className="more">
-                            I have some projects with HTML5, CSS3, JS and React, 
-                            and now, I intend to put my focus in study
-                            more next.js. </span>
+                            I'm fluent using React, JS, Tailwind, SASS, CSS3, HTML5 and have
+                            some experience with Next.js, Astro and Typescript. </span>
                     )}  
                         </p>
                         <button onClick={handToggle} className='btn'>
@@ -56,9 +55,7 @@ export default function Services({}) {
                             Html, Css, JS vanilla and React.
                             { readMore2 && (
                             <span className="more">
-                            I never work in a project like FullStack developer,
-                            just in a Personal project, 'Realtime Chat', in my
-                            Portfolio below. </span>
+                            I have some fullstack projects using Flask, you can get them on my "portfolio section" below. </span>
                     )}  
                         </p>
                         <button onClick={handToggle2} className='btn'>
