@@ -18,14 +18,14 @@ export default function About({}) {
                 <div className={style['about-content']}>
                     <h2>About  <span className = "yellow">Me</span></h2>
                     <h3>Frontend Developer!</h3>
-                    <p>My name is André Maurell, I am 20 years and I am a Computer
+                    <p>My name is André Maurell, I am 21 years and I am a Computer
                         Engineering student at the Federal University of Rio Grande 
-                        (FURG). I am currently in the 4rd year and specializing in
+                        (FURG). I am currently in the 5rd year and specializing in
                         Front-end Development but I intend to become a Full-Stack 
                         developer in the future.
 
                         {readMore && (
-                            <span className={style['more']}> I'm currently a React/Typescript developer with very experience at git/github, but you can get my technical skills on "services" section. I am passionate about technology and 
+                            <span className={style['more']}> I'm currently a React and nextJS/Typescript developer with very experience at git/github, but you can get my technical skills on "services" section. I am passionate about technology and 
                             I am always looking for new knowledge. 
                             I am a very organized person, I like to work in a team and 
                             I am always willing to learn new things.</span>

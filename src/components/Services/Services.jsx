@@ -38,8 +38,8 @@ export default function Services({}) {
                             study and work more with this.
                             { readMore && (
                             <span className="more">
-                            I'm fluent using React, JS, Tailwind, SASS, CSS3, HTML5 and have
-                            some experience with Next.js, Astro and Typescript. </span>
+                            I'm fluent using React, JS, Tailwind, SASS, CSS3, HTML5, Next.js, typescript and have
+                            some experience with Docker and react-native. </span>
                     )}  
                         </p>
                         <button onClick={handToggle} className='btn'>
@@ -49,10 +49,9 @@ export default function Services({}) {
                     <div className={style["services-box"]} id = "secondSon">
                         <i class='bx bx-code-alt' ></i>
                         <h3>FullStack Development</h3>
-                        <p>I have a little experience with, 
-                            Node.js, Next.js, Flask, MySQL and 
-                            MongoDB, besides I am fluent with 
-                            Html, Css, JS vanilla and React.
+                        <p>I have experience with, 
+                            Node.js, Flask, PostgresSQL and 
+                            MongoDB.
                             { readMore2 && (
                             <span className="more">
                             I have some fullstack projects using Flask, you can get them on my "portfolio section" below. </span>
