@@ -19,7 +19,7 @@ export default function Home({}) {
                         <a href="https://github.com/andremaurell" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i></a>
                     </div>
 
-                    <a href="https://drive.google.com/u/0/uc?id=1-CM_Q62aWYW8SzCueQiQjJbrmkOqGAnp&export=download" className = "btn" >Download CV</a>
+                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1yK28wW_Kh1hbDiiGLJnPjfxp40QmpeIG&export=download" className = "btn" >Download CV</a>
 
                 </div>
                 <div className={style['home-image']}>
