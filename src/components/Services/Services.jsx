@@ -38,7 +38,7 @@ export default function Services({}) {
                             study and work more with this.
                             { readMore && (
                             <span className="more">
-                            I'm fluent using React, JS, Tailwind, SASS, CSS3, HTML5, Next.js, typescript and have
+                            I'm fluent using React, JS, Tailwind, SASS, CSS3, HTML5, Next.js, typescript, Jest/Testing Librarys and have
                             some experience with Docker and react-native. </span>
                     )}  
                         </p>
@@ -50,8 +50,8 @@ export default function Services({}) {
                         <i class='bx bx-code-alt' ></i>
                         <h3>FullStack Development</h3>
                         <p>I have experience with, 
-                            Node.js, Flask, PostgresSQL and 
-                            MongoDB.
+                            Node.js, Flask, PostgresSQL,
+                            MongoDB and Jest.
                             { readMore2 && (
                             <span className="more">
                             I have some fullstack projects using Flask, you can get them on my "portfolio section" below. </span>
