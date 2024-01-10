@@ -12,13 +12,17 @@
 .services-content {
     display: flex;
     align-items: stretch;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
 .services-box {
     font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     padding: 3rem;
 }
 
@@ -41,6 +45,7 @@
 
 .services-content .services-box p {
     margin-bottom: 2rem;
+    min-width: 40vh;
 }
 .services-content .services-box i {
     font-size: 5rem;

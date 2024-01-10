@@ -63,7 +63,7 @@ export default function Services({}) {
                     </div>
                     <div className={style["services-box"]} id = "thirdSon">
                         <i class='bx bxl-android' ></i>
-                        <h3>Robot Development</h3>
+                        <h3>Robotic Development</h3>
                         <p>I met the robotic in University,
                              since my first year of graduation
                               I participate of projects like the 
