@@ -33,12 +33,12 @@ export default function Services({}) {
                     <div className={style["services-box"]} id = "firstSon">
                         <i class='bx bx-code-alt' ></i>
                         <h3>FrontEnd Development</h3>
-                        <p>I work with Front end Development since 2021, 
-                            but, in 2022 I really started to 
-                            study and work more with this.
+                        <p>I study Front end Development since 2021, 
+                            but, in 2023 I really started to 
+                            work with this.
                             { readMore && (
                             <span className="more">
-                            I'm fluent using React, JS, Tailwind, SASS, CSS3, HTML5, Next.js, typescript, Jest/Testing Librarys and have
+                            I'm Front end developer using React, Typescript, Tailwind, SASS, CSS3, HTML5, Next.js, Jest/Testing Librarys and have
                             some experience with Docker and react-native. </span>
                     )}  
                         </p>
@@ -48,13 +48,13 @@ export default function Services({}) {
                     </div>
                     <div className={style["services-box"]} id = "secondSon">
                         <i class='bx bx-code-alt' ></i>
-                        <h3>FullStack Development</h3>
-                        <p>I have experience with, 
-                            Node.js, Flask, PostgresSQL,
-                            MongoDB and Jest.
+                        <h3>Backend Development</h3>
+                        <p>I started studying backend development to help with my personal projects, but in some freelance jobs, I worked as a Fullstack developer.
                             { readMore2 && (
                             <span className="more">
-                            I have some fullstack projects using Flask, you can get them on my "portfolio section" below. </span>
+                            I have experience with, 
+                            Node.js, Flask, PostgresSQL,
+                            MongoDB and Jest </span>
                     )}  
                         </p>
                         <button onClick={handToggle2} className='btn'>
@@ -73,9 +73,8 @@ export default function Services({}) {
                             On behalf of the FBOT team, I participate 
                             in competitions in the @Home category, 
                             where we work on developing a domestic 
-                            and autonomous robot. I have experience s
-                            with ROS and I work in LOGNAV project, 
-                            where we make a autonomous robot to one company. </span>
+                            and autonomous robot. I have experience
+                            with ROS2, OpenCV, Machine Learning and python. </span>
                     )}  
                         </p>
                         <button onClick={handToggle3} className='btn'>
